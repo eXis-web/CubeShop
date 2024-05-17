@@ -15,7 +15,7 @@ const emit = defineEmits(['onClickRemove'])
         <p class="cart-item__title">{{ title }}</p>
 
         <div class="cart-item__price">
-          <b class="cart-item__price-value">{{ price }}₪</b>
+          <b class="cart-item__price-value">{{ price }}$</b>
           <img
             @click="emit('onClickRemove')"
             src="/assets/close.svg"

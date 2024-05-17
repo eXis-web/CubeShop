@@ -48,22 +48,22 @@ const isButtonDisabled = computed(() => !totalPriceAfterDiscount.value || isLoad
       <div class="drawer-footer__price">
         <span class="drawer-footer__label">Price:</span>
         <div class="drawer-footer__separator" />
-        <p class="drawer-footer__amount">{{ totalPrice }}₪</p>
+        <p class="drawer-footer__amount">{{ totalPrice }}$</p>
       </div>
       <div class="drawer-footer__price">
         <span class="drawer-footer__label">Discount 10%:</span>
         <div class="drawer-footer__separator" />
-        <p class="drawer-footer__amount">{{ discountPrice }}₪</p>
+        <p class="drawer-footer__amount">{{ discountPrice }}$</p>
       </div>
       <div class="drawer-footer__price drawer-footer__price_total">
         <span class="drawer-footer__label">Total Price:</span>
         <div class="drawer-footer__separator" />
-        <b class="drawer-footer__amount">{{ totalPriceAfterDiscount }}₪</b>
+        <b class="drawer-footer__amount">{{ totalPriceAfterDiscount }}$</b>
       </div>
     </div>
 
     <button @click="createOrder" :disabled="isButtonDisabled" class="button">
-      Checkout {{ totalPriceAfterDiscount ? `(${totalPriceAfterDiscount}₪)` : '' }}
+      Checkout {{ totalPriceAfterDiscount ? `(${totalPriceAfterDiscount}$)` : '' }}
     </button>
   </footer>
 </template>

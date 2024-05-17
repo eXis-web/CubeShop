@@ -20,7 +20,7 @@ defineProps<Partial<Product>>()
     <div class="product-card__footer">
       <div class="product-card__price">
         <span class="product-card__price-label">Price:</span>
-        <b class="product-card__price-value">{{ price }}₪</b>
+        <b class="product-card__price-value">{{ price }}$</b>
       </div>
 
       <img

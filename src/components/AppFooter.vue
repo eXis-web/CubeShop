@@ -1,11 +1,10 @@
 <template>
   <footer class="footer">
-    <a class="link footer__author" href="https://artemshchirov.github.io/portfolio" target="_blank">
-      Developed with 💻 and ❤️ by <span class="footer__author-name">Ɐrtem</span>
+    <a class="link footer__author" href="https://armen-varosian-portfolio.netlify.app/" target="_blank">
+      Developed with 💻 and ❤️ by <span class="footer__author-name">Ɐrmen</span>
     </a>
-    <a class="link footer__source" href="https://github.com/artemshchirov/ultracube" target="_blank"
-      >Explore on GitHub</a
-    >
+    <a class="link footer__source" href="https://github.com/artemshchirov/ultracube" target="_blank">Explore on
+      GitHub</a>
   </footer>
 </template>
 
