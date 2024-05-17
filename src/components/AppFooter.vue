@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <a class="link footer__author" href="https://armen-varosian-portfolio.netlify.app/" target="_blank">
-      Developed with 💻 and ❤️ by <span class="footer__author-name">Ɐrmen</span>
+      Developed with 💻 and ❤️ by <span class="footer__author-name">eXis</span>
     </a>
     <a class="link footer__source" href="https://github.com/eXis-web/CubeShop" target="_blank">Explore on
       GitHub</a>
